@@ -16,7 +16,7 @@ PostgreSQL e PGVector - Banco de dados vetorial
 
 Antes de rodar o projeto, é necessário criar um ambiente virtual (venv) e instalar as dependências.
 
-Linux / MacOS
+# LINUX / MAC OS
 
 # Criar venv
 python3 -m venv venv
@@ -27,7 +27,7 @@ source venv/bin/activate
 # Instalar dependências
 pip install -r requirements.txt
 
-Windows
+# WINDOWS
 
 # Criar venv
 python -m venv venv
@@ -63,12 +63,3 @@ streamlit run interface.py
 - Persistência de histórico de conversas no PostgreSQL.
 - Suporte a múltiplos modelos da OpenAI (GPT-3.5, GPT-4, GPT-4o, etc.).
 
-
-
-
-
-
-
-
-# Instalar dependências
-pip install -r requirements.txt
